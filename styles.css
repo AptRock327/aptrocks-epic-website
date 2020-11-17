@@ -1,0 +1,127 @@
+body {
+    transition: all 0.2s ease-out;
+    margin: 0;
+}
+
+.bar {
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.bar-right a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s ease-out;
+}
+
+.bar-right {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.bar-right a:hover {
+    color: #c4b897;
+    transform: rotate(5deg);
+}
+
+.apt-page {
+    font-family: "Goldman", sans-serif;
+    transform: rotate(1.3deg);
+    font-size: 37px;
+}
+
+.bar-right li {
+    margin: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+}
+
+.main {
+    font-family: "Montserrat", sans-serif;
+    background-color:#298096 ;
+    padding: 140px 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-bg {
+    max-width: 750px;
+}
+
+.main h1 {
+    font-family: "Goldman", sans-serif;
+    font-size: 45px;
+}
+
+.main p {
+    font-size: 18.5px;
+    line-height: 1.3;
+}
+
+.mypr {
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    padding: 15px 22px;
+    border-radius: 7px;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 240px;
+    margin-top: 20px;
+    transition: all 0.2s ease-out;
+}
+
+.mypr:hover {
+    background-color:#140569;
+}
+
+.wdid {
+    background-color: #d4ccbe;
+    padding: 60px 40px;
+}
+
+.wdid-bg {
+    max-width: 1920px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+}
+
+.wdid-item h1 {
+    font-family: "Goldman", sans-serif;
+}
+
+.wdid-item p {
+    font-family: "Montserrat", sans-serif;
+    line-height: 20px;
+    color: #464952;
+}
+
+.copyright {
+    padding: 15px 0px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.abtme {
+    font-family: "Goldman", sans-serif;
+    text-align: center;
+    background-color: #7d7859;
+    margin: 0;
+}
+
+.image {
+    width: 100%;
+}

@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+.bar {
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.bar-right a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s ease-out;
+}
+
+.bar-right {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.bar-right a:hover {
+    color: #c4b897;
+    transform: rotate(5deg);
+}
+
+.apt-page {
+    font-family: "Goldman", sans-serif;
+    transform: rotate(1.3deg);
+    font-size: 37px;
+}
+
+.bar-right li {
+    margin: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+}
+
+.main {
+    background-color: blueviolet;
+    padding: 45px 0px;
+}
+
+.main-main {
+    max-width: 1200px;
+    margin: 100px;
+}
+
+.main p {
+    font-size: 25px;
+    font-family: "Montserrat";
+}
+
+.copyright {
+    padding: 15px 0px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
