@@ -1,3 +1,60 @@
+/*
+Welcome to the cum zone
+Only cum inside anime girls
+Quivering clit, double jointed pussy
+Fresh balls, elegant ejaculation
+First the kiss, then the cum
+
+My dick is in love with pain
+Co-op cock torture
+Stuff my dick into a furnace
+Stitch my cock shut
+Pressure cook my greasy balls
+Cumblast me and make it snappy
+
+Cum, cum, cum, cum, cum, cum, cum, cum
+Cum, cum, cum, cum, cum, cum, cum, cum
+Cum, cum, cum, cum, cum, cum, cum, cum
+Cum, cum, cum, cum, cum, cum, cum, cum
+
+What's all the cummotion?
+My dad fell into a cum shaft
+My dad glazed my face with cum
+Fertilize a baby with hunk spunk
+Cum spunk in my trunk
+
+Cum craving toddler
+Cum drippin' cunt
+Cummy Rae Jepsen
+Cum me maybe
+Cummy bottom boy
+Night of the living cum
+Nefarious cum mastermind
+Cum makes me fearless
+
+Cum crammer, cock slammer
+Cum slammed ya mum
+Mail your mums pieces of my dick
+Bazinga!
+Chug the cum, fug ya mum
+Fuck my asshole full of cum
+Three little words
+Get fucked, nerd
+
+Cum stuffer, jenkem huffer
+Fuck my cum puddle
+Bottom stuffer, semen huffer
+Would love a gator to fuck me
+Undercooked baby pig penises
+Help my dogs get a huge boner
+Water bong full of cat cum
+Accidentally fucked my own ass
+I barely had any dicks inside me
+Who ate all my cum? A mystery
+Cum detective hot on the trail
+Bees make honey, I make cummy
+*/
+
 body {
     margin: 0;
 }
@@ -35,31 +92,42 @@ body {
 }
 
 .apt-page {
-    font-family: "Goldman", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     transform: rotate(1.3deg);
     font-size: 37px;
 }
 
 .bar-right li {
     margin: 30px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Pangolin", sans-serif;
     font-size: 24px;
 }
 
 .main {
-    font-family: "Montserrat", sans-serif;
-    background-color:#298096 ;
+    font-family: "Pangolin", sans-serif;
     padding: 140px 80px;
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 0;
+    background: linear-gradient(180deg, #C9AE21 0%, rgba(255, 255, 255, 0) 100%), #7B15AB;
 }
 
 .main-bg {
     max-width: 750px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 50px 80px;
+    z-index: 2;
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,.25), 0 18px 36px -18px rgba(0,0,0,.3), 0 -12px 36px -8px rgba(0,0,0,.025);
+    display: inline-block;
+    border-radius: 15px;
+    transition: all 0.2s ease-out;
+    overflow: hidden;
 }
 
 .main h1 {
-    font-family: "Goldman", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-size: 45px;
 }
 
@@ -86,7 +154,7 @@ body {
 }
 
 .wdid {
-    background-color: #d4ccbe;
+    background: linear-gradient(180deg, #D4CCBE 0%, rgba(255, 255, 255, 0) 100%), #9E804B;
     padding: 60px 40px;
 }
 
@@ -123,4 +191,46 @@ body {
 
 .image {
     width: 100%;
+}
+
+.cool1 {
+    position: absolute;
+    top: 160px;
+    right: 5%;
+    background-color: #1f2b78;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+}
+
+.cool2 {
+    position: absolute;
+    top: 240px;
+    left: 5%;
+    background-color: #A6DBFF;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+}
+
+.cool3 {
+    position: absolute;
+    top: 320px;
+    left: 10%;
+    background-color: #19cf46;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+}
+
+.cool {
+    transform: skewY(-8deg);
+    z-index: 1;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.55;
+    overflow: hidden;
 }
