@@ -35,14 +35,14 @@ body {
 }
 
 .apt-page {
-    font-family: "Goldman", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     transform: rotate(1.3deg);
     font-size: 37px;
 }
 
 .bar-right li {
     margin: 30px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Pangolin", sans-serif;
     font-size: 24px;
 }
 
@@ -58,7 +58,7 @@ body {
 
 .main p {
     font-size: 25px;
-    font-family: "Montserrat";
+    font-family: "Pangolin";
 }
 
 .copyright {
